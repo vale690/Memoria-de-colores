@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f0f8ff;
+}
+
+h1 {
+    margin-top: 20px;
+    color: #333;
+}
+
+.tablero {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    grid-gap: 20px;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.color {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.color:active {
+    opacity: 1;
+}
+
+.rojo { background: red; }
+.azul { background: blue; }
+.verde { background: green; }
+.amarillo { background: yellow; }
+
+#btn-iniciar {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
