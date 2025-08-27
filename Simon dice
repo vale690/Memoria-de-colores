@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simón Dice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Juego: Simón Dice</h1>
+    </header>
+
+    <main>
+        <section id="juego">
+            <p>Repite la secuencia de colores que muestre el juego.</p>
+            <div class="tablero">
+                <div class="color rojo" data-color="rojo"></div>
+                <div class="color azul" data-color="azul"></div>
+                <div class="color verde" data-color="verde"></div>
+                <div class="color amarillo" data-color="amarillo"></div>
+            </div>
+            <button id="btn-iniciar">Iniciar Juego</button>
+            <p id="mensaje"></p>
+        </section>
+    </main>
+
+    <script src="juego.js"></script>
+</body>
+</html>
